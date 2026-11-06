@@ -1,4 +1,4 @@
-# Imprtiere Funktionen aus den Untermoduln in den Paket-Nsamensrau
+# Importiere Funktionen aus den Untermoduln in den Paket-Namensrau
 from .math2 import*
 
 # Instanzen direkt ins Paket erstellen
