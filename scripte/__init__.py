@@ -4,7 +4,7 @@ from .script_kgv import*
 
 # Instanzen direkt ins Paket erstellen
 script_ggt = Script_Ggt()
-script_kgv = Script_KgV()
+script_kgv = Script_Kgv()
 
 scriptggt = script_ggt.scriptggt()
 scriptkgv = script_kgv.scriptkgv()

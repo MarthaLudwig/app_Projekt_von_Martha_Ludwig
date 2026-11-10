@@ -1,7 +1,7 @@
 import streamlit as st
 from zahlen import*
 
-class Script_KgV:
+class Script_Kgv:
 
     def scriptkgv(self):
 
@@ -12,4 +12,4 @@ class Script_KgV:
         if st.button("Berechnen kgv"):
 
             ergebnis = kgv(a, b)
-            st.success(f"Kleinstes gemeinsames Vielfache (KGV): {ergebnis}")
+            st.success(f"Kleinstes gemeinsames Vielfaches (KGV): {ergebnis}")
