@@ -6,10 +6,11 @@ class Script_Kgv:
     def scriptkgv(self):
 
         # Eingabefelder
-        a = st.number_input("Zahl A", value = 12, step = 1, key = "a_kgv")
-        b = st.number_input("Zahl B", value = 18, step = 1, key = "b_kgv")
+        st.subheader("Kleinstes gemeinsames Vielfaches (KGV)")
+        a_kgv = st.number_input("Zahl A", value = 12, step = 1, key = "a_kgv")
+        b_kgv = st.number_input("Zahl B", value = 18, step = 1, key = "b_kgv")
 
-        if st.button("Berechnen kgv"):
+        if st.button("Berechnen kgv", key = "btn_kgv"):
 
-            ergebnis = kgv(a, b)
-            st.success(f"Kleinstes gemeinsames Vielfaches (KGV): {ergebnis}")
+            ergebnis = kgv(a_kgv, b_kgv)
+            st.success(f"KGV von {a_kgv} und {b_kgv} ist: {ergebnis}")
