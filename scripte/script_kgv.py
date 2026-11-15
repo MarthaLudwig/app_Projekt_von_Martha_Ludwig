@@ -12,5 +12,5 @@ class Script_Kgv:
 
         if st.button("Berechnen kgv", key = "btn_kgv"):
 
-            ergebnis_kgv = kgv(a_kgv, b_kgv)
+            ergebnis_kgv = kgv(int(a_kgv), int(b_kgv))
             st.success(f"KGV von {a_kgv} und {b_kgv} ist: {ergebnis_kgv}")

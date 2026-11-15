@@ -12,5 +12,5 @@ class Script_Ggt:
 
         if st.button("Berechnen ggt", key = "btn_ggt"):
 
-            ergebnis_ggt = ggt(a_ggt, b_ggt)
+            ergebnis_ggt = ggt(int(a_ggt), int(b_ggt))
             st.success(f"GGT von {a_ggt} und {b_ggt} ist: {ergebnis_ggt}")
