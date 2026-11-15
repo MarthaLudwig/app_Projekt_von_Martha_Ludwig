@@ -3,12 +3,20 @@
 from scripte import*
 import streamlit as st
 
-st.title("App von Martha Ludwig")
+st.title("Mathe-App von Martha Ludwig")
+st.write("Wähle im Menü aus, welches Programm du starten möchtest:")
 
-if st.button("Berechnen ggT"):
+# Auswahlmenü auf der Startseite (oder st.sidebar für die Seitenleiste)
+auswahl = st.selectbox("Programm auswählen", ["Startseite", "GGT berechnen", "KGV berechnen"])
 
-    scriptggt()
+if auswahl == "Startseite":
 
-if st.button("Berechnen kgV"):
+    st.info("Willkommen! Bitte wähle oben im Menü eine Funktion aus.")
 
-    scriptkgv()
+elif auswahl == "GGT berechnen":
+
+    script_ggt()
+
+elif auswahl == "KGV berechnen":
+
+    script_kgv()
