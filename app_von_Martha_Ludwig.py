@@ -15,8 +15,8 @@ if auswahl == "Startseite":
 
 elif auswahl == "GGT berechnen":
 
-    script_ggt()
+    scriptggt()
 
 elif auswahl == "KGV berechnen":
 
-    script_kgv()
+    scriptkgv()
