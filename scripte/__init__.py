@@ -6,8 +6,8 @@ from .script_kgv import*
 script_ggt = Script_Ggt()
 script_kgv = Script_Kgv()
 
-scriptggt = script_ggt.scriptggt()
-scriptkgv = script_kgv.scriptkgv()
+scriptggt = script_ggt.scriptggt
+scriptkgv = script_kgv.scriptkgv
 
 __all__scripte_ggt_funktionen = ["script_ggt", "scriptggt"]
 __all__scripte_kgv_funktionen = ["script_kgv", "scriptkgv"]
